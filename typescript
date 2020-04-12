@@ -1,0 +1,270 @@
+Script started on 2020-04-12 11:20:52-0700
+maic2@cf405-17:~/csci241/lab-1-maic2$ q
+
+Command 'q' not found, but can be installed with:
+
+snap install q                       # version 1.6.3-1, or
+apt  install python-q-text-as-data 
+apt  install python3-q-text-as-data
+
+See 'snap info q' for additional versions.
+
+maic2@cf405-17:~/csci241/lab-1-maic2$ ls[K[Kcd[K[Kcd
+maic2@cf405-17:~$ git clone https://github.com/csci241-20s/lab-1-maic2.git
+Cloning into 'lab-1-maic2'...
+remote: Enumerating objects: 30, done.[K
+remote: Counting objects:   3% (1/30)[Kremote: Counting objects:   6% (2/30)[Kremote: Counting objects:  10% (3/30)[Kremote: Counting objects:  13% (4/30)[Kremote: Counting objects:  16% (5/30)[Kremote: Counting objects:  20% (6/30)[Kremote: Counting objects:  23% (7/30)[Kremote: Counting objects:  26% (8/30)[Kremote: Counting objects:  30% (9/30)[Kremote: Counting objects:  33% (10/30)[Kremote: Counting objects:  36% (11/30)[Kremote: Counting objects:  40% (12/30)[Kremote: Counting objects:  43% (13/30)[Kremote: Counting objects:  46% (14/30)[Kremote: Counting objects:  50% (15/30)[Kremote: Counting objects:  53% (16/30)[Kremote: Counting objects:  56% (17/30)[Kremote: Counting objects:  60% (18/30)[Kremote: Counting objects:  63% (19/30)[Kremote: Counting objects:  66% (20/30)[Kremote: Counting objects:  70% (21/30)[Kremote: Counting objects:  73% (22/30)[Kremote: Counting objects:  76% (23/30)[Kremote: Counting objects:  80% (24/30)[Kremote: Counting objects:  83% (25/30)[Kremote: Counting objects:  86% (26/30)[Kremote: Counting objects:  90% (27/30)[Kremote: Counting objects:  93% (28/30)[Kremote: Counting objects:  96% (29/30)[Kremote: Counting objects: 100% (30/30)[Kremote: Counting objects: 100% (30/30), done.[K
+remote: Compressing objects:   5% (1/18)[Kremote: Compressing objects:  11% (2/18)[Kremote: Compressing objects:  16% (3/18)[Kremote: Compressing objects:  22% (4/18)[Kremote: Compressing objects:  27% (5/18)[Kremote: Compressing objects:  33% (6/18)[Kremote: Compressing objects:  38% (7/18)[Kremote: Compressing objects:  44% (8/18)[Kremote: Compressing objects:  50% (9/18)[Kremote: Compressing objects:  55% (10/18)[Kremote: Compressing objects:  61% (11/18)[Kremote: Compressing objects:  66% (12/18)[Kremote: Compressing objects:  72% (13/18)[Kremote: Compressing objects:  77% (14/18)[Kremote: Compressing objects:  83% (15/18)[Kremote: Compressing objects:  88% (16/18)[Kremote: Compressing objects:  94% (17/18)[Kremote: Compressing objects: 100% (18/18)[Kremote: Compressing objects: 100% (18/18), done.[K
+remote: Total 30 (delta 8), reused 14 (delta 3), pack-reused 0[K
+Unpacking objects:   3% (1/30)   Unpacking objects:   6% (2/30)   Unpacking objects:  10% (3/30)   Unpacking objects:  13% (4/30)   Unpacking objects:  16% (5/30)   Unpacking objects:  20% (6/30)   Unpacking objects:  23% (7/30)   Unpacking objects:  26% (8/30)   Unpacking objects:  30% (9/30)   Unpacking objects:  33% (10/30)   Unpacking objects:  36% (11/30)   Unpacking objects:  40% (12/30)   Unpacking objects:  43% (13/30)   Unpacking objects:  46% (14/30)   Unpacking objects:  50% (15/30)   Unpacking objects:  53% (16/30)   Unpacking objects:  56% (17/30)   Unpacking objects:  60% (18/30)   Unpacking objects:  63% (19/30)   Unpacking objects:  66% (20/30)   Unpacking objects:  70% (21/30)   Unpacking objects:  73% (22/30)   Unpacking objects:  76% (23/30)   Unpacking objects:  80% (24/30)   Unpacking objects:  83% (25/30)   Unpacking objects:  86% (26/30)   Unpacking objects:  90% (27/30)   Unpacking objects:  93% (28/30)   Unpacking objects:  96% (29/30)   Unpacking objects: 100% (30/30)   Unpacking objects: 100% (30/30), done.
+maic2@cf405-17:~$ ls
+csci241  Desktop  Documents  Downloads	lab1  lab-1-maic2  Music  phase3.s  Pictures  Public  reflexive-list  Templates  Videos
+maic2@cf405-17:~$ cd sc[K[Kcsci241/
+maic2@cf405-17:~/csci241$ ls
+lab-1-maic2  writeup.txt
+maic2@cf405-17:~/csci241$ cd lab-1-maic2/
+maic2@cf405-17:~/csci241/lab-1-maic2$ ls
+bin  build.gradle  lab1.code-workspace	settings.gradle  src  typescript
+maic2@cf405-17:~/csci241/lab-1-maic2$ touch writeup.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git add writeup.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git commit -m "Added empty writeup"
+[master 1ab638f] Added empty writeup
+ 1 file changed, 3 deletions(-)
+maic2@cf405-17:~/csci241/lab-1-maic2$ git push
+Username for 'https://github.com': maic2
+Password for 'https://maic2@github.com': 
+Counting objects: 2, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  50% (1/2)   Writing objects: 100% (2/2)   Writing objects: 100% (2/2), 250 bytes | 250.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-maic2.git
+   774551b..1ab638f  master -> master
+maic2@cf405-17:~/csci241/lab-1-maic2$ git add writeup.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git commit -m "Added part 1 (names) to writeup:[K"
+[master 4a5ab86] Added part 1 (names) to writeup
+ 1 file changed, 1 insertion(+)
+maic2@cf405-17:~/csci241/lab-1-maic2$ git[K[K[Kgit status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	[31mdeleted:    username.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	[31m.classpath[m
+	[31m.gradle/[m
+	[31m.project[m
+	[31m.settings/[m
+	[31mbin/[m
+	[31mlab1.code-workspace[m
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+maic2@cf405-17:~/csci241/lab-1-maic2$ git push
+Username for 'https://github.com': maic2
+Password for 'https://maic2@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 281 bytes | 140.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-maic2.git
+   1ab638f..4a5ab86  master -> master
+maic2@cf405-17:~/csci241/lab-1-maic2$ git add typescript
+maic2@cf405-17:~/csci241/lab-1-maic2$ git push
+Username for 'https://github.com': maic2
+Password for 'https://maic2@github.com': 
+Everything up-to-date
+maic2@cf405-17:~/csci241/lab-1-maic2$ git add writeup.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git commit 0[K-m "Added part 2 (hobby) to writeup:"[K[K"
+[master 3a1f863] Added part 2 (hobby) to writeup
+ 2 files changed, 2 insertions(+), 1 deletion(-)
+ create mode 100644 typescript
+maic2@cf405-17:~/csci241/lab-1-maic2$ git push
+Username for 'https://github.com': maic2
+Password for 'https://maic2@github.com': 
+Counting objects: 3, done.
+Delta compression using up to 8 threads.
+Compressing objects:  50% (1/2)   Compressing objects: 100% (2/2)   Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)   Writing objects:  66% (2/3)   Writing objects: 100% (3/3)   Writing objects: 100% (3/3), 339 bytes | 339.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To https://github.com/csci241-20s/lab-1-maic2.git
+   4a5ab86..3a1f863  master -> master
+maic2@cf405-17:~/csci241/lab-1-maic2$ touch w[Kusernamet[K.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ a[Kgit add usernamee[K.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git checkout
+M	typescript
+M	username.txt
+Your branch is up to date with 'origin/master'.
+maic2@cf405-17:~/csci241/lab-1-maic2$ git rm[K[K[K[K[K[Kgit add dummy.txt
+fatal: pathspec 'dummy.txt' did not match any files
+maic2@cf405-17:~/csci241/lab-1-maic2$ touch g[Kdummy.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git add dummy.txt
+maic2@cf405-17:~/csci241/lab-1-maic2$ git rm dummy.txt
+error: the following file has changes staged in the index:
+    dummy.txt
+(use --cached to keep the file, or -f to force removal)
+maic2@cf405-17:~/csci241/lab-1-maic2$ -f
+-f: command not found
+maic2@cf405-17:~/csci241/lab-1-maic2$ git -f[K[Kmv dummy.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+maic2@cf405-17:~/csci241/lab-1-maic2$ git mv 0[K-f dummy.txt
+usage: git mv [<options>] <source>... <destination>
+
+    -v, --verbose         be verbose
+    -n, --dry-run         dry run
+    -f, --force           force move/rename even if target exists
+    -k                    skip move/rename errors
+
+maic2@cf405-17:~/csci241/lab-1-maic2$ git blame
+usage: git blame [<options>] [<rev-opts>] [<rev>] [--] <file>
+
+    <rev-opts> are documented in git-rev-list(1)
+
+    --incremental         Show blame entries as we find them, incrementally
+    -b                    Show blank SHA-1 for boundary commits (Default: off)
+    --root                Do not treat root commits as boundaries (Default: off)
+    --show-stats          Show work cost statistics
+    --progress            Force progress reporting
+    --score-debug         Show output score for blame entries
+    -f, --show-name       Show original filename (Default: auto)
+    -n, --show-number     Show original linenumber (Default: off)
+    -p, --porcelain       Show in a format designed for machine consumption
+    --line-porcelain      Show porcelain format with per-line commit information
+    -c                    Use the same output mode as git-annotate (Default: off)
+    -t                    Show raw timestamp (Default: off)
+    -l                    Show long commit SHA1 (Default: off)
+    -s                    Suppress author name and timestamp (Default: off)
+    -e, --show-email      Show author email instead of name (Default: off)
+    -w                    Ignore whitespace differences
+    --indent-heuristic    Use an experimental heuristic to improve diffs
+    --minimal             Spend extra cycles to find better match
+    -S <file>             Use revisions from <file> instead of calling git-rev-list
+    --contents <file>     Use <file>'s contents as the final image
+    -C[<score>]           Find line copies within and across files
+    -M[<score>]           Find line movements within and across files
+    -L <n,m>              Process only line range n,m, counting from 1
+    --abbrev[=<n>]        use <n> digits to display SHA-1s
+
+maic2@cf405-17:~/csci241/lab-1-maic2$ git log
+[?1h=[33mcommit 3a1f8638bf62b25a5cd03257e91ec2faff00e1a4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 11:28:21 2020 -0700[m
+[m
+    Added part 2 (hobby) to writeup[m
+[m
+[33mcommit 4a5ab8657745b20d0d80c3c8162a7e5a4fe9b10f[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 11:26:44 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 1ab638f60e243b582fb970f5e5885892a92aeca5[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 11:25:10 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 774551bd621a75dd260d7f7d5abbd53cffa9ebf8[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 11:14:43 2020 -0700[m
+[m
+    Added part 3 (favorite song) to writeup[m
+[m
+[33mcommit 2137702e80823dde71ddb36693027d383a5c662e[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 11:02:38 2020 -0700[m
+[m
+    Added info to username[m
+[m
+[33mcommit aab97ba09b77cea396019ac3392c35e1b604d94f[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 10:52:00 2020 -0700[m
+[m
+    Added empty username.txt[m
+[m
+[33mcommit 586dfa7dc23c92c9ea48f037a1346247499190c9[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 10:50:14 2020 -0700[m
+[m
+    Added part 2 (hobbies) to writeup[m
+[m
+[33mcommit 2acb0fb5bc4a2db466ef3ba6a0ba68988601959f[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 10:49:16 2020 -0700[m
+[m
+    Added part 1 (names) to writeup[m
+[m
+[33mcommit 18d5569f6c574a2b2447c1a93ab4d92f15489618[m[m
+Author: Christian Mai <maic2@wwu.edu>[m
+Date:   Sun Apr 12 10:39:46 2020 -0700[m
+[m
+    Added empty writeup[m
+[m
+[33mcommit 7d2f754ba48f8dea836080d027f77f0aeee877c8[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+Date:   Thu Apr 9 09:11:26 2020 -0700[m
+[m
+    Setting up GitHub Classroom Feedback[m
+[m
+[33mcommit a9c8ba49fc482887517b5b665643ed876bbeb19a[m[33m ([m[1;31morigin/feedback[m[33m)[m[m
+Author: swehrwein <swehrwein@gmail.com>[m
+:[K[K[K:[K[K:[K[K[7mNo next tag  (press RETURN)[27m[63;1H[K[K:[K[KDate:   Thu Apr 9 09:11:26 2020 -0700[m
+:[K[K[m
+:[K[K    Setting up GitHub Classroom Feedback[m
+:[K[K[m
+:[K[K[33mcommit 00fd56dd34bc58031478c7b4b1bde02d3b89780b[m[m
+:[K[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[KDate:   Thu Apr 9 09:11:24 2020 -0700[m
+:[K[K[m
+:[K[K    Initial commit[m
+:[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HMDate:   Sun Apr 12 11:26:44 2020 -0700[m
+[HMAuthor: Christian Mai <maic2@wwu.edu>[m
+[HM[33mcommit 4a5ab8657745b20d0d80c3c8162a7e5a4fe9b10f[m[m
+[HM[m
+[HM    Added part 2 (hobby) to writeup[m
+[HM[m
+[HMDate:   Sun Apr 12 11:28:21 2020 -0700[m
+[HMAuthor: Christian Mai <maic2@wwu.edu>[m
+[HM[33mcommit 3a1f8638bf62b25a5cd03257e91ec2faff00e1a4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[63;1H[K:[K[K:[K[K:[K[K:[K[K:[K[KDate:   Thu Apr 9 09:11:26 2020 -0700[m
+:[K[K[m
+:[K[K    Setting up GitHub Classroom Feedback[m
+:[K[K[m
+:[K[K[33mcommit 00fd56dd34bc58031478c7b4b1bde02d3b89780b[m[m
+:[K[KAuthor: swehrwein <swehrwein@gmail.com>[m
+:[K[KDate:   Thu Apr 9 09:11:24 2020 -0700[m
+:[K[K[m
+:[K[K    Initial commit[m
+[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[HMDate:   Sun Apr 12 11:26:44 2020 -0700[m
+[HMAuthor: Christian Mai <maic2@wwu.edu>[m
+[HM[33mcommit 4a5ab8657745b20d0d80c3c8162a7e5a4fe9b10f[m[m
+[HM[m
+[HM    Added part 2 (hobby) to writeup[m
+[HM[m
+[HMDate:   Sun Apr 12 11:28:21 2020 -0700[m
+[HMAuthor: Christian Mai <maic2@wwu.edu>[m
+[HM[33mcommit 3a1f8638bf62b25a5cd03257e91ec2faff00e1a4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[63;1H[K:[K[KDate:   Thu Apr 9 09:11:26 2020 -0700[m
+:[K[K[HM[33mcommit 3a1f8638bf62b25a5cd03257e91ec2faff00e1a4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[63;1H[K:[K[KDate:   Thu Apr 9 09:11:26 2020 -0700[m
+:[K[K[HM[33mcommit 3a1f8638bf62b25a5cd03257e91ec2faff00e1a4[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m[m
+[63;1H[K:[K[KDate:   Thu Apr 9 09:11:26 2020 -0700[m
+:[K[K[m
+:[K[K:[K[K[HMAuthor: Christian Mai <maic2@wwu.edu>
